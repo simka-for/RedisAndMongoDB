@@ -14,23 +14,53 @@
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1aJXvkLW8p6dphgEMnMm7vvLZL3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunManager" selected="Application.RedisStudentWork">
+    <configuration name="RedisStudentWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Redis.RedisStudentWork" />
+      <module name="RedisAndMongoDB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisToDo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Redis.RedisToDo" />
+      <module name="RedisAndMongoDB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RedisStudentWork" />
+        <item itemvalue="Application.RedisToDo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -42,11 +72,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586454902687</updated>
-      <workItem from="1586454906981" duration="913000" />
+      <workItem from="1586454906981" duration="1752000" />
+      <workItem from="1586537962976" duration="2447000" />
+      <workItem from="1586593715120" duration="689000" />
+      <workItem from="1586595377849" duration="150000" />
+      <workItem from="1586595550660" duration="573000" />
+      <workItem from="1586596357530" duration="9132000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586595440836">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586595440836" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586595614287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586595614287" />
+    <state width="1877" height="401" key="GridCell.Tab.0.bottom" timestamp="1586606040840">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="401" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586606040840" />
+    <state width="1877" height="401" key="GridCell.Tab.0.center" timestamp="1586606040840">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="401" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586606040840" />
+    <state width="1877" height="401" key="GridCell.Tab.0.left" timestamp="1586606040840">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="401" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586606040840" />
+    <state width="1877" height="401" key="GridCell.Tab.0.right" timestamp="1586606040840">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="401" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586606040840" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1586598819181">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586598819181" />
   </component>
 </project>
