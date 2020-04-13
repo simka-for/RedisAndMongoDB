@@ -1,5 +1,6 @@
 package MongoDB;
 
+import com.mongodb.BasicDBObject;
 import com.mongodb.MongoClient;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
@@ -52,14 +53,14 @@ public class MongoBook {
 
 //        collection.find().forEach((Consumer<Document>) System.out::println);
 
-        BsonDocument firstQuery = BsonDocument.parse("{date: 1}");
+
         BsonDocument secondQuery = BsonDocument.parse("{author: {$eq: \"Bulgakov M.\"}}");
 
-        collection.find().sort(firstQuery).limit(1).forEach((Consumer<Document>) document -> {
+        collection.find().sort(new BasicDBObject("date", 1)).limit(1).forEach((Consumer<Document>) document -> {
             System.out.println("\nСамая старая книга:\n" + document);
         });
 
-        System.out.println("Книги любимого писателя:");
+        System.out.println("\nКниги любимого писателя:");
         collection.find(secondQuery).forEach((Consumer<Document>) System.out::println);
     }
 

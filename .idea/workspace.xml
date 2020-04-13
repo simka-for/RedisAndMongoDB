@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c36f70c4-becd-4e44-b0a6-2925c28b9d05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MongoDB/MongoBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MongoDB/MongoStudents/MongoStudents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MongoDB/MongoStudents/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MongoDB/MongoStudents/data/mongo.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MongoDB/MongoBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MongoDB/MongoBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MongoDB/MongoBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MongoDB/MongoBook.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +39,33 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.MongoBook">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Chukubek\IdeaProjects\RedisAndMongoDB\src\main\java\MongoDB\MongoStudents" />
+      <recent name="C:\Users\Chukubek\IdeaProjects\RedisAndMongoDB" />
+      <recent name="C:\Users\Chukubek\IdeaProjects\RedisAndMongoDB\src\main\java\MongoDB\Data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MongoStudents">
     <configuration name="MongoBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MongoDB.MongoBook" />
       <module name="RedisAndMongoDB" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MongoDB.*" />
+          <option name="PATTERN" value="MongoDB.MongoStudents.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MongoStudents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MongoDB.MongoStudents.MongoStudents" />
+      <module name="RedisAndMongoDB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MongoDB.MongoStudents.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,19 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisStudentWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Redis.RedisStudentWork" />
-      <module name="RedisAndMongoDB" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Redis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RedisToDo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Redis.RedisToDo" />
       <module name="RedisAndMongoDB" />
@@ -104,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MongoStudents" />
         <item itemvalue="Application.MongoBook" />
         <item itemvalue="Application.RedisSortedCity" />
         <item itemvalue="Application.RedisSiteUsers" />
         <item itemvalue="Application.RedisToDo" />
-        <item itemvalue="Application.RedisStudentWork" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +143,8 @@
       <workItem from="1586614651366" duration="5637000" />
       <workItem from="1586684992344" duration="190000" />
       <workItem from="1586685206659" duration="147000" />
-      <workItem from="1586706283670" duration="4948000" />
+      <workItem from="1586706283670" duration="5512000" />
+      <workItem from="1586763555365" duration="10436000" />
     </task>
     <servers />
   </component>
@@ -141,37 +152,65 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1586706992234">
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1586766311651">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586706992234" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586766311651" />
     <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586595440836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586595440836" />
+    <state x="591" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586764045346">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="591" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586764045346" />
+    <state x="569" y="1" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586764704632">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="569" y="1" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586764704632" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586606859938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586606859938" />
-    <state width="1877" height="336" key="GridCell.Tab.0.bottom" timestamp="1586711356990">
+    <state width="1877" height="308" key="GridCell.Tab.0.bottom" timestamp="1586775501625">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="336" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586711356990" />
-    <state width="1877" height="336" key="GridCell.Tab.0.center" timestamp="1586711356989">
+    <state width="1877" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586775501625" />
+    <state width="1877" height="308" key="GridCell.Tab.0.center" timestamp="1586775501624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="336" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586711356989" />
-    <state width="1877" height="336" key="GridCell.Tab.0.left" timestamp="1586711356989">
+    <state width="1877" height="308" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586775501624" />
+    <state width="1877" height="308" key="GridCell.Tab.0.left" timestamp="1586775501624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="336" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586711356989" />
-    <state width="1877" height="336" key="GridCell.Tab.0.right" timestamp="1586711356989">
+    <state width="1877" height="308" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586775501624" />
+    <state width="1877" height="308" key="GridCell.Tab.0.right" timestamp="1586775501624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="336" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586711356989" />
+    <state width="1877" height="308" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586775501624" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1586773095810">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586773095810" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1586773095809">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586773095809" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1586773095809">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586773095809" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1586773095810">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586773095809" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1586685352132">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586685352132" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1586768829541">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586768829541" />
   </component>
 </project>
