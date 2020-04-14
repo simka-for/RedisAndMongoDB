@@ -1,10 +1,8 @@
 package MongoDB.MongoStudents;
 
 import com.mongodb.*;
-import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
-import org.bson.BsonDocument;
 import org.bson.Document;
 
 import java.io.IOException;
@@ -14,7 +12,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
-import java.util.function.Consumer;
 
 public class MongoStudents {
 
@@ -31,7 +28,7 @@ public class MongoStudents {
         loadToDB(studentList);
 
         System.out.println("Общее количество студентов: " + collection.countDocuments());
-
+ 
         int age = students.find(new BasicDBObject("age", new BasicDBObject("$gt", 40))).count();
         System.out.println("\nКоличество студентов старше 40 лет : " + age + " человек.");
 
